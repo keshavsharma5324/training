@@ -20,7 +20,7 @@ class ListItem {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  filteredListItem.dateTime.toString().substring(0, 10) ?? '',
+                  filteredListItem.dateTime.toString().substring(0, 10),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
@@ -181,7 +181,7 @@ class ListItem {
                   color: Colors.white),
             ),
             Text(
-              '${trainingListItem.location ?? ''} ${trainingListItem.dateTime.toString().substring(0, 10) ?? ''}',
+              '${trainingListItem.location ?? ''} ${trainingListItem.dateTime.toString().substring(0, 10)}',
               style: TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.w400,

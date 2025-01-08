@@ -1,10 +1,5 @@
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
-import 'package:rxdart/rxdart.dart';
-import 'package:trainings/screens/training_detail.dart';
 import 'package:trainings/screens/trainings_dashboard.dart';
-import 'package:trainings/models/trainings_model.dart';
 
 void main() {
   runApp(const MyApp());
